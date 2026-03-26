@@ -1,0 +1,19 @@
+<!-- WooCommerce Product Grid using Query Builder -->
+<!-- wp:greenshift-blocks/wooquerygrid {"id":"gsbp-woo001","postType":"product","postsToShow":8,"columns":[4,3,2,1],"orderBy":"date","order":"desc","gap":["20px"],"align":"wide"} -->
+
+<!-- Product Image -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-wimg01","tag":"img","localId":"gsbp-wimg01","dynamictext":{"dynamicEnable":true,"dynamicType":"postdata","dynamicSource":"current_item","dynamicPostData":"featured_image"},"styleAttributes":{"width":["100%"],"aspectRatio":["1/1"],"objectFit":["cover"],"borderRadius":["var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dborder-radius\u002d\u002dsmall, 10px)"]}} -->
+<img class="gsbp-wimg01" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- Product Title -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-wtitle01","textContent":"<dynamictext></dynamictext>","tag":"h3","dynamictext":{"dynamicEnable":true,"dynamicType":"postdata","dynamicSource":"current_item","dynamicPostData":"post_title"},"localId":"gsbp-wtitle01","href":"<dynamictext></dynamictext>","dynamichref":{"dynamicEnable":true,"dynamicType":"postdata","dynamicSource":"current_item","dynamicPostData":"post_permalink"},"styleAttributes":{"marginTop":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dspacing\u002d\u002d40, 1rem)"],"marginBottom":["0.5rem"]}} -->
+<h3 class="gsbp-wtitle01"><dynamictext></dynamictext></h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- Product Price -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-wprice01","textContent":"<dynamictext></dynamictext>","dynamictext":{"dynamicEnable":true,"dynamicType":"customfield","dynamicFieldKey":"_price","dynamicFieldBefore":"₹"},"localId":"gsbp-wprice01","styleAttributes":{"fontWeight":["700"],"fontSize":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dm, 1.35rem)"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dprimary, #000)"]}} -->
+<div class="gsbp-wprice01"><dynamictext></dynamictext></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- /wp:greenshift-blocks/wooquerygrid -->
